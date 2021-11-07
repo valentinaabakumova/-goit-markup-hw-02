@@ -126,8 +126,7 @@ body {
 
 .team-item-header {
   font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -173,7 +172,7 @@ body {
   font-style: normal;
 }
 
-/* ПОРТФОЛИО */
+/* -------------ПОРТФОЛИО--------------- */
 /* section-work */
 
 .section-work-title {
