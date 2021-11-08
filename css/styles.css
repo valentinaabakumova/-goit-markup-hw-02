@@ -1,3 +1,10 @@
+:root {
+  --color_first: #757575;
+  --color_second: #212121;
+  --color_accent: #2196f3;
+  --coolor_title: #ffffff;
+}
+
 body {
   /* color: #757575; */
   font-family: Roboto, sans-serif;
@@ -7,21 +14,15 @@ body {
 /* вторичный цвет color: #212121; */
 /* Цвет акцента color: #2196F3; */
 
-:root {
-  --color_first: #757575;
-  --color_second: #212121;
-  --color_accent: #2196f3;
-  --coolor_title: #ffffff;
-}
-
 /* header */
 
 .logo {
   color: var(--color_second);
   font-family: Raleway, sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 .logo_first {
@@ -38,6 +39,10 @@ body {
 
 .header-link {
   color: var(--color_second);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .header-link-call {
@@ -66,11 +71,13 @@ body {
 }
 
 .hero-btn {
-  font-weight: bold;
+  /* font-family: inherit; */
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
   color: var(--coolor_title);
   background-color: var(--color_accent);
+  letter-spacing: 0.03em;
 }
 
 .hero {
@@ -83,7 +90,7 @@ body {
 }
 
 .benef-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -96,12 +103,13 @@ body {
   font-size: 14px;
   line-height: 1.71;
   color: var(--color_first);
+  letter-spacing: 0.03em;
 }
 
 /* doing */
 
 .doing_title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -116,7 +124,7 @@ body {
 }
 
 .team-header {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -199,7 +207,6 @@ body {
 
 .work-pic-title {
   font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
